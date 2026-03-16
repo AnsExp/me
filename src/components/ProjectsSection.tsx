@@ -1,5 +1,9 @@
 import { ExternalLink, Github } from "lucide-react";
 import ProjectCard from "./ProjectCard";
+import Sigelo from "../assets/img/sigelo.png";
+import Notepad from "../assets/img/notepad.png";
+import CentralBooking from "../assets/img/central-booking.png";
+import DocumentVaultApi from "../assets/img/document-vault-api.png";
 
 const projects = [
   {
@@ -7,7 +11,7 @@ const projects = [
     description: "Sistema de gestion de paquetería. El sistema se divide en dos partes: Frontend y Backend.",
     tags: ["React", "Tailwind", "Prisma", "SQLite"],
     accentClass: "bg-gradient-to-br from-violet-500/20 to-fuchsia-500/20",
-    imageUrl: "/resources/img/sigelo.png",
+    imageUrl: Sigelo,
     links: [
       { label: "Codigo", url: "https://github.com/AnsExp", icon: Github },
     ]
@@ -17,7 +21,7 @@ const projects = [
     description: "Plataforma de reservas para boletos de viaje en tren. Permite a los usuarios buscar, seleccionar y reservar boletos de manera eficiente.",
     tags: ["Laravel", "MySQL"],
     accentClass: "bg-gradient-to-br from-blue-500/20 to-cyan-500/20",
-    imageUrl: "/resources/img/central-booking.png",
+    imageUrl: CentralBooking,
     links: [
       { label: "GitHub", url: "https://github.com/AnsExp/central-booking", icon: Github, },
       { label: "Sitio", url: "https://supgalapagos.tours/central", icon: ExternalLink, },
@@ -28,7 +32,7 @@ const projects = [
     description: "API para subir documentos y recuperarlos de forma segura, con endpoints para carga, listado, descarga y gestion de metadatos.",
     tags: ['Java', 'Spring'],
     accentClass: "bg-gradient-to-br from-sky-500/20 to-indigo-500/20",
-    imageUrl: "/resources/img/document-vault-api.png",
+    imageUrl: DocumentVaultApi,
     links: [
       {
         label: "GitHub",
@@ -42,7 +46,7 @@ const projects = [
     description: "Aplicacion de bloc de notas con creacion, edicion, busqueda y organizacion de notas en tiempo real.",
     tags: ['Java', 'Java Swing'],
     accentClass: "bg-gradient-to-br from-amber-500/20 to-orange-500/20",
-    imageUrl: "/resources/img/notepad.png",
+    imageUrl: Notepad,
     links: [
       {
         label: "GitHub",
