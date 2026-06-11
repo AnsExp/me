@@ -42,15 +42,15 @@ const projects = [
     ]
   },
   {
-    title: "Notepad",
-    description: "Aplicacion de bloc de notas con creacion, edicion, busqueda y organizacion de notas en tiempo real.",
-    tags: ['Java', 'Java Swing'],
+    title: "OccuMaster Health",
+    description: "Occu Master Health es una plataforma web para la gestión integral de evaluaciones médicas ocupacionales y emisión de certificados. El sistema centraliza el flujo operativo desde la creación de órdenes de atención, registro y actualización de pacientes, llenado de exámenes médicos por especialidad, generación de certificados en PDF y control administrativo de usuarios, planes y auditoría.",
+    tags: ['Laravel', 'MySQL', 'Tailwind'],
     accentClass: "bg-gradient-to-br from-amber-500/20 to-orange-500/20",
     imageUrl: Notepad,
     links: [
       {
         label: "GitHub",
-        url: "https://github.com/AnsExp/notepad",
+        url: "https://github.com/AnsExp/occu-master-health",
         icon: Github
       }
     ]
